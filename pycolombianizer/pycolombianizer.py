@@ -56,9 +56,9 @@ class Colombianizer(object):
         # Other slangs to be defined
         return ""
 
+
 if __name__ == "__main__":
     colombianizer = Colombianizer()
     print(colombianizer.string_2_paisa("Hello world"))
     print(colombianizer.string_2_costa("Hello world"))
     print(colombianizer.string_2_costa(None))
-
